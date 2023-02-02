@@ -1,12 +1,19 @@
 console.log("funzionooo!")
 
 
-for (let i = 1; i <= 100; i++) {
+for (let i = 0; i <= 100; i++) {
 
-  if (i % 3 === 1) {
-    console.log("fizz")
+  if (i % 3 === 0) {
+    console.log(i, "fizz")
+  }
+
+  if (i % 5 === 0) {
+    console.log(i, "buzz")
+  }
+
+  if (i % 15 === 0) {
+    console.log(i, "fizzbuzz")
   }
   
-  console.log(i)
 
 }
