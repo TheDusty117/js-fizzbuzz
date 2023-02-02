@@ -20,6 +20,9 @@ for (let i = 1; i <= 100; i++) {
     console.log(i)
   }
 
+  // come ultimo altrimenti se, gli dico semplicemente di stampare il numero (i) che in questo caso non deve avere un modulo
+  // per trovare un multiplo
+
 
   // console.log(i)
 
