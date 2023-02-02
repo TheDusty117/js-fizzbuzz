@@ -9,17 +9,17 @@ for (let i = 1; i <= 100; i++) {
 
   if (i % 15 === 0) {
     console.log(i, "fizzbuzz")
-    document.getElementById("output3").innerHTML += "fizzbuzz "
+    document.getElementById("output3").innerHTML += " fizzbuzz"
   }
 
   else if (i % 3 === 0) {
     console.log(i, "fizz")
-    document.getElementById("output").innerHTML += "fizz "
+    document.getElementById("output").innerHTML += " fizz"
   }
 
   else if (i % 5 === 0) {
     console.log(i, "buzz")
-    document.getElementById("output2").innerHTML += "buzz "
+    document.getElementById("output2").innerHTML += " buzz"
   }
 
   else if(i) {
