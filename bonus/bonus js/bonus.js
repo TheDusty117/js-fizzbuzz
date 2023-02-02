@@ -1,4 +1,7 @@
+
 console.log("funzionooo!")
+
+
 
 
 for (let i = 1; i <= 100; i++) {
@@ -19,6 +22,10 @@ for (let i = 1; i <= 100; i++) {
   else if(i) {
     console.log(i)
   }
+
+  document.getElementById("output").innerHTML = i
+
+
 
   
   // come ultimo altrimenti se, gli dico semplicemente di stampare il numero (i) che in questo caso non deve avere un modulo
