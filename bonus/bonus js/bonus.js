@@ -27,6 +27,3 @@ for (let i = 1; i <= 100; i++) {
   
   
 }
-
-
-//devi dire tutti i numeri da 1 a 100, poi ogni multiplo di 3 "fizz" ogni multiplo di 5 "buzz" ogni multiplo di 15 "fizzbuzz"
