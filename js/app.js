@@ -1,10 +1,9 @@
 console.log("funzionooo!")
 
 
-for (let i = 0; i <= 100; i++) {
+for (let i = 1; i <= 100; i++) {
 
-  console.log(i)
-  
+
   if (i % 15 === 0) {
     console.log(i, "fizzbuzz")
   }
@@ -17,9 +16,14 @@ for (let i = 0; i <= 100; i++) {
     console.log(i, "buzz")
   }
 
+  else if(i) {
+    console.log(i)
+  }
+
 
   // console.log(i)
 
 }
+
 
 //devi dire tutti i numeri da 1 a 100, poi ogni multiplo di 3 "fizz" ogni multiplo di 5 "buzz" ogni multiplo di 15 "fizzbuzz"
